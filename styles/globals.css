@@ -12,11 +12,12 @@ body {
   height: 100vh;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+.TimeBox {
+  background: transparent linear-gradient(180deg, #ffffff9c 0%, #ffffff4f 100%)
+    0% 0% no-repeat padding-box;
+  border: 1px solid #ffffff1a;
+  border-radius: 32px;
+  opacity: 1;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
 }
